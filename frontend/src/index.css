@@ -1,0 +1,11 @@
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; font-size: 16px; line-height: 1.6; }
+::-webkit-scrollbar { width: 5px; }
+::-webkit-scrollbar-thumb { background: #ccc; border-radius: 3px; }
+
+/* Markdown answer styling */
+.md-answer p { margin-bottom: 8px; }
+.md-answer ul, .md-answer ol { padding-left: 18px; margin-bottom: 8px; }
+.md-answer li { margin-bottom: 3px; line-height: 1.7; }
+.md-answer strong { font-weight: 600; }
+.md-answer h1,.md-answer h2,.md-answer h3 { font-weight: 600; margin: 10px 0 5px; }
